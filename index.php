@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<form method="post" action="check.php">
+    Gebruikersnaam: <input type="text" name="username" size="20" maxlength="20"><br/>
+    Wachtwoord: <input type="password" name="wachtwoord" size="20" maxlength="20"><br /><br/>
+    <input type="submit" value="Log in!" />
+</form><br /><br />
+
 <nav id="nav">
     <input type="checkbox" id="menuToggle">
     <label for="menuToggle" class="menu-toggle">
